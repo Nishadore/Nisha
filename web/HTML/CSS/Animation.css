@@ -1,0 +1,35 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 15px;
+    border: 10px groove yellowgreen;
+    animation-name: xyz;
+    animation-duration: 30s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes xyz {
+    0%{
+        background-color: darkviolet;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    45%{
+        background-color: red;
+        left: 20px;
+        top: 0px;
+    }
+    65%{
+        background-color: darkgreen;
+        left: 0px;
+        top: 0px;
+    }
+    100%{
+        background-color: yellow;
+        left: 0px;
+        top: 0px;
+    }
+}

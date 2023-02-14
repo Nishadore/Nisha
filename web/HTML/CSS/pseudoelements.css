@@ -1,0 +1,37 @@
+#TRUE::after{
+    content: "-> true";
+    color: green;
+    font-size: 15px;
+}
+#FALSE::after{
+    content: "->false";
+    color: red;
+    font-size: 15px;
+}
+#Right::before{
+    content: "TRUE-->";
+    color: blue;
+}
+#Wrong::before{
+    content: "FALSE-->";
+    color: crimson;
+
+}
+h4::first-letter{
+    background-color: greenyellow;
+    color: indigo;
+    font-size: 30px;
+    font-weight: 200;
+}
+h5::first-line{
+    color: azure;
+    background-color: black;
+    font-size: 45px;
+    font-weight: 200;
+}
+h3::selection{
+    background-color: yellow;
+    color:darkred;
+    font-size: 35px;
+    font-weight: 200;
+}

@@ -1,0 +1,28 @@
+#demo{
+    color: darkgreen;
+    font-size: 80 px;
+    
+}
+#test{
+    color: rgb(255, 127, 127);
+    font-size: 100px;
+}
+
+.test{
+    color: blue;
+    background-color: rgb(255, 196, 250);
+}
+h4{
+    color: magenta;
+    background-color: darkgray;
+    font-size: 50px;
+}
+pre,p,h6{
+    background-color: yellowgreen;
+    color: tomato;
+    font-size: 30px;
+}
+*{
+    background-color:sienna ;
+    color: antiquewhite;
+}

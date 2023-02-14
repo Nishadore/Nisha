@@ -1,0 +1,17 @@
+div>h1{
+    color: rgb(42, 165, 77);
+    background-color: aqua;
+}
+div h2{
+    color: darkgreen;
+    background-color: rgb(220, 241, 255);
+    font-size: 20pxs;
+}
+div+h3{
+    color: antiquewhite;
+    background-color: black;
+}
+div~h4{
+    color: black;
+    background-color: chartreuse;
+}

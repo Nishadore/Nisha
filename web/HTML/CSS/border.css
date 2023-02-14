@@ -1,0 +1,15 @@
+div{
+    height: 300px;
+    width: 300px;
+    border-color: darkgreen;
+    border: 30px dotted red;
+    background-color: aqua;
+    border-radius: 100px;
+    border-top-style: outset;
+    border-left-style: double;
+    border-right-style: groove;
+    border-bottom-style: solid;
+    border-top-width: 50px;
+    border-left-width: 50px;
+    border-top-color: cornflowerblue;
+}
